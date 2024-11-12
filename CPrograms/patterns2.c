@@ -1,0 +1,27 @@
+//WAP to print the patterns of a user desired number
+
+#include <stdio.h>
+
+int main(){
+
+    int num;
+
+    printf("Enter the number: ");
+    scanf("%d",num);
+
+
+    for(int i=1;i<=num;i++){
+
+
+        for(j=1;j<=i;j++){
+
+            printf("%d", num);
+        }
+
+    }
+
+    printf("\n");
+
+
+return 0;
+}
