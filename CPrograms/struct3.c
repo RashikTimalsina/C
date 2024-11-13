@@ -30,6 +30,7 @@ int main(){
     scanf("%d",&stud1.rollno);
 
     printf("\nMarks:");
+    
     for(int i=0;i<5;i++){
         scanf("%d",&stud1.marks[i]);
     }
@@ -41,6 +42,14 @@ int main(){
     printf("\nZone:");
     scanf(" %[^\n]",stud1.addr.zone);
 
+    printf("\nStudent details are:");
+
+    printf("\nName:%s",stud1.name);
+    printf("\nRollno:%d",stud1.rollno);
+    printf("\nMarks:");
+    for(int i=0;i<5;i++){
+        printf("%d ",stud1.marks[i]);
+    }
 
 
 }
