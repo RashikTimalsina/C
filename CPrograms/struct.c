@@ -11,13 +11,14 @@ int main(){
         char name[30];
         int roll_no;
 
-        struct address
+        struct 
         {
 
             char district[30];
             char zone[30];
 
-        } addr;
+        // } addr;
+        }address;                     //variable declaration can be done at last too
 
     } s1;
 
@@ -29,17 +30,17 @@ int main(){
     while (getchar() != '\n');
 
     printf("Enter the district of the student:- ");
-    fgets(s1.addr.district, 20, stdin);
+    fgets(s1.address.district, 20, stdin);
     printf("Enter the zone of the student:- ");
-    fgets(s1.addr.zone, 20, stdin);
+    fgets(s1.address.zone, 20, stdin);
 
 
 
     printf("Details of the student:-");
     printf("\nName: %s", s1.name);
     printf("\nRoll Number: %d", s1.roll_no);
-    printf("\nDistrict: %s", s1.addr.district);
-    printf("\nZone: %s", s1.addr.zone);
+    printf("\nDistrict: %s", s1.address.district);
+    printf("\nZone: %s", s1.address.zone);
 
     return 0;
 }

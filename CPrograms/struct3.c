@@ -14,8 +14,6 @@ int main(){
         int marks[5];
         struct address addr;
         
-    
-        
 
     };
 
