@@ -69,8 +69,9 @@ int main(){
         printf("\n Course:%s", p1.per.student.course);
     }
 
+    else{
+        printf("\n Invalid choice");
+    }
+
     return 0;
-
-
-
 }
