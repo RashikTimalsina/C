@@ -27,7 +27,7 @@ int main(){
     printf("\nRollno:");
     scanf("%d",&stud1.rollno);
 
-    printf("\nMarks:");
+    printf("\nMarks:  \n");
     
     for(int i=0;i<5;i++){
         scanf("%d",&stud1.marks[i]);
@@ -35,7 +35,7 @@ int main(){
 
 
     printf("\nDistrict:");
-    scanf(" %[^\n]",stud1.addr.district);
+    scanf(" %[^\n]",stud1.addr.district);    // %[^\n] is used to read string with spaces
 
     printf("\nZone:");
     scanf(" %[^\n]",stud1.addr.zone);
@@ -48,6 +48,7 @@ int main(){
     for(int i=0;i<5;i++){
         printf("%d ",stud1.marks[i]);
     }
-
-
+    printf("\nDistrict:%s",stud1.addr.district);
+    printf("\nZone:%s",stud1.addr.zone);
+    return 0;
 }

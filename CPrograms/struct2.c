@@ -27,7 +27,7 @@ int main()
     scanf("%d", &ptr->roll);
 
     // Displaying the values using the pointer
-    printf("\nStudent Information:\n");
+    printf("\nStudent Information:\t");
     printStructure(&person1);
 
     return 0;

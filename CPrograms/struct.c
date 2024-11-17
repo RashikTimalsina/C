@@ -27,6 +27,8 @@ int main(){
     printf("Enter the roll number of the student:- ");
     scanf("%d", &s1.roll_no);
 
+    
+    
     while (getchar() != '\n');
 
     printf("Enter the district of the student:- ");
