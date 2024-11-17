@@ -5,7 +5,7 @@
 
 int main()
 {
-    int r =3, ptr, c =4;
+    int r =3, ptr, c =3;
     int *arr = (int *)calloc(r * c, sizeof(int));
     int count =0;
     for (int i = 0; i < r; i++)
