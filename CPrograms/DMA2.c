@@ -5,13 +5,18 @@
 
 int main()
 {
-    int r =3, ptr, c =3;
+    int r =3, c =3;
     int *arr = (int *)calloc(r * c, sizeof(int));
     int count =0;
+    if(arr==NULL){
+        printf("memory allocation failed");
+        exit(0);
+    }
     for (int i = 0; i < r; i++)
     {
         for (int j = 0;j < c;j++)
         {
+        
             *(arr + i * c +j) = ++count;
         }
     }
