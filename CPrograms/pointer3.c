@@ -11,7 +11,7 @@ void show(int p1[][2], int p2[][2], int arr3[][2], int r, int c)
         }
     }
 }
-
+ 
 int main()
 {
     int arr1[2][2] = {
