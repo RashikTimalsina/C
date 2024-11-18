@@ -8,6 +8,6 @@ int main(){
 
     struct student *ptr{
         ptr=(struct student)* malloc(sizeof(struct student));
-    }
+    };
 
 }
