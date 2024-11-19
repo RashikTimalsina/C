@@ -3,3 +3,8 @@ timalsina
 111
 22
 3
+ this is append mode
+it is running till I press ctrl D
+ append
+text
+read
