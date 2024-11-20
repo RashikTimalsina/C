@@ -3,9 +3,9 @@
 
 int main()
 {
-
-    int ch;
+    char str[50];
     FILE *fp;
+
     fp = fopen("myfile.txt", "w");
 
     if (fp == NULL)
@@ -14,12 +14,13 @@ int main()
         exit(1);
     }
 
-    printf("Enter text");
+    printf("your text: \n\n");
 
-    while ((ch = getchar()) != EOF)
+    while (fgets(str, 50, stdin) != NULL)
     {
-        /* code */
-        fputc(ch, fp);
+
+        fputs(str,fp);
+
     }
 
     fclose(fp);

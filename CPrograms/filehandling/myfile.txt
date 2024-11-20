@@ -1,24 +1,2 @@
- rashik
-timalsina
-111
-22
-3
- this is append mode
-it is running till I press ctrl D
- append
-text
-read
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc append.c -o append && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"append
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc append.c -o append && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"append
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
-cd "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/" && gcc string.c -o string && "/Users/rashiktimalsina/Documents/C/CPrograms/filehandling/"string
+abc
+a=text

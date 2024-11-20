@@ -14,13 +14,12 @@ int main()
         exit(1);
     }
 
-    printf("Press Ctrl +Z in DOS and Ctrl +D\n in Linux to stop reading more characters \n\n");
+    printf("your text: \n\n");
 
-    while (fgets(str, 50, fp)!= EOF)
+    while (fgets(str, 50, fp) != NULL)
     {
 
-        printf("%s", str);
-
+        puts(str);
     }
 
     fclose(fp);
