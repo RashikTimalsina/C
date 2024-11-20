@@ -13,7 +13,7 @@ int main(){
     printf(" %d %d %d", num[0],num[1],num[2]);
 
     
-
+    
 
 return 0;
 }
