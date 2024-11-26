@@ -1,9 +1,9 @@
 // wap to find greatest number among 3 using nested else if operator
-
+#include <stdio.h>
 int main()
 {
     int a, b, c;
-    printf("Enter three numbers: ");
+    printf("Enter three numbers: \n");
     scanf("%d %d %d", &a, &b, &c);
     if (a > b)
     {

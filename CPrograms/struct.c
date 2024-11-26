@@ -11,7 +11,7 @@ int main(){
         char name[30];
         int roll_no;
 
-        struct 
+        struct c
         {
 
             char district[30];

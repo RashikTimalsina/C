@@ -5,13 +5,13 @@
 
 int main()
 {
-    int num, n1 = 1, n2 = 2, n3;
+    int num, n1 = 1, n2 = 1, n3;
 
     printf("Enter the number upto where you want the fibonacci series:- ");
     scanf("%d", &num);
 
     printf("%d, %d, ", n1, n2);
-    for (int i = 3; i < num; ++i)
+    for (int i = 2; i < num; ++i)
     {
         n3 = n1 + n2;
         printf("%d, ", n3);
