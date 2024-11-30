@@ -1,6 +1,8 @@
 //Find the number entereed by user is prime or not using functions
 #include <stdio.h>
+
 int prime(int n);
+
 int main()
 {
     int n;
@@ -23,10 +25,10 @@ int prime(int n)
     {
         if (n % i == 0)
         {
-            return 0;
+            return 0;               //return 0 if number is not prime
         }
     }
-    return 1;
+    return 1;                   //return 1 if number is prime
 }
 
 

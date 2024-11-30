@@ -15,7 +15,7 @@ int main()
     {
         printf("%d ", fibonacci(i)); // Calling the recursive function
     }
-    printf("\n");
+
 
     return 0;
 }
