@@ -8,7 +8,7 @@ int main(){
     printf("Enter a number: ");
     scanf("%d",&num);
 
-    printf("The factorial of %d is %d\n",num,factorial(num));           // Function call
+    printf("The facto rial of %d is %d\n",num,factorial(num));           // Function call
 
     return 0;
 }

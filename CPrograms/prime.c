@@ -1,7 +1,7 @@
 //Find the number entereed by user is prime or not using functions
 #include <stdio.h>
 
-int prime(int n);
+int prime(int n);           //function declaration
 
 int main()
 {
@@ -21,7 +21,7 @@ int main()
 int prime(int n)
 {
     int i;
-    for (i = 1; i <= n / 2; i++)
+    for (i = 2; i <= n / 2; i++)
     {
         if (n % i == 0)
         {
