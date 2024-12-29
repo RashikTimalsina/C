@@ -11,12 +11,14 @@ int main()
     scanf("%d", &num);
 
     printf("%d, %d, ", n1, n2);
-    for (int i = 2; i < num; ++i)
+    for (int i = 2; i < num; ++i)         // i = 2 because we have already printed 2 numbers
     {
-        n3 = n1 + n2;
-        printf("%d, ", n3);
-        n1 = n2;
-        n2 = n3;
+        n3 = n1 + n2;           // n3 = 1 + 1 = 2
+        printf("%d, ", n3);     // 2
+        n1 = n2;                // n1 = 1
+        n2 = n3;                // n2 = 2
+        
+        
     }
 
     return 0;

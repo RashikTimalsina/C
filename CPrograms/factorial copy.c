@@ -10,7 +10,7 @@ int main(){
     scanf("%d", &num);
 
     for(int i=1;i<=num;i++){
-        factorial *= i;
+        factorial = factorial * i;
     }
 
     printf("Factorial of %d = %lld\n", num, factorial);

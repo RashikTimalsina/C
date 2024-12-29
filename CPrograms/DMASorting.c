@@ -14,8 +14,9 @@ int main()
     // Input the first 5 integers
     for (int i = 0; i < 5; i++)
     {
-        printf("Enter the value of element %d: ", i);
-        scanf("%d", arr + i);
+        printf("Enter the value of element %d: ", i+1);
+        scanf("%d", arr + i);         // arr + i is done to access the ith element of the array
+        //it is equivalent to arr + i = &arr[i] which is the address of the ith element of the array
     }
 
     // Sort the first 5 integers
@@ -41,17 +42,17 @@ int main()
     printf("\n");
 
     // Reallocate memory for 10 integers
-    arr = (int *)realloc(arr, 10 * sizeof(int));
+    arr = (int *)realloc(arr, 10 * sizeof(int));   // realloc uses two arguments, the pointer to the memory block and the new size
     if (arr == NULL)
     {
         printf("Memory allocation failed\n");
-        exit(1);
+        exit(0);   //successful termination
     }
 
     // Input the next 5 integers
     for (int i = 5; i < 10; i++)
     {
-        printf("Enter the value of element %d: ", i);
+        printf("Enter the value of element %d: ", i+1);
         scanf("%d", arr + i);
     }
 
